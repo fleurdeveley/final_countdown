@@ -23,20 +23,7 @@ var chrono = setInterval(function(){
         document.getElementById('mn').innerHTML = mn;
     }
     if(mn == 0){
-        compteur++;
-        // console.log(compteur);
-        if(compteur % 2 == 0){
-            mn = 5;
-            totalMn = totalMn + mn;
-        } else {
-            mn = 25;
-            totalMn = totalMn + mn;
-        }
-        if(compteur == 8){
-            clearInterval(chrono);
-            document.getElementById('totalMn').innerHTML = 'total ' + totalMn + ' mn';
-        }
-        console.log(totalMn);
+        clearInterval(chrono);
     }
 }, 10);
 
