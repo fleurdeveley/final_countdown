@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    font-size: 6em;
+    margin: 200px;
+    background-color: rgb(171, 207, 221);
+}
+
+#comptearebourscertification{
+    background-color: rgb(36, 133, 212);
+    border: 2px solid black;
+    width: 50%;
+    height: 65%;
+    margin: 15px auto;
+}
